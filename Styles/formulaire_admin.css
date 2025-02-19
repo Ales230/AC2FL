@@ -1,0 +1,172 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+header {
+    background-color:#222;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 15vh;
+    box-shadow: 5px 5px 10px rgb(0,0,0,0.3);
+    position: sticky;
+    top: 0; /* Position fixe en haut de la page */
+    z-index: 1000;
+    
+}
+.btn-home{
+    text-decoration:none;
+    color:white;
+    margin-right:1400px;
+    position:absolute;
+    font-size:3rem;
+}
+.btn-danger{
+    text-decoration:none;
+    color:white;
+    margin-left:1200px;
+    position:absolute;
+    font-size:3rem;
+}
+main{
+    padding:10%;
+    margin-top:-150px;
+}
+h1 {
+    letter-spacing: 1vw;
+    font-family: 'system-ui';
+    text-transform: uppercase;
+    text-align: center;
+}
+h2 {
+    letter-spacing: 0.5vw;
+    font-family: 'system-ui';
+    text-transform: uppercase;
+    text-align: center;
+    
+}
+.tab_synthese,.nouv_reserv{
+    margin-top:50px;
+}
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+/* Ajout du style pour les nouvelles sections */
+.liste_demande, .add_pilote, .add_avion, .liste_avion {
+    margin-top: 50px;
+}
+
+/* Ajout du style pour la section "Liste des demandes" */
+.liste_demande table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.liste_demande th, .liste_demande td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.liste_demande th {
+    background-color: #4caf50;
+    color: white;
+}
+
+/* Ajout du style pour la section "Nouvelle Réservation" */
+.nouv_reserv form {
+    max-width: 400px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.nouv_reserv label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.nouv_reserv input[type="text"],
+.nouv_reserv select,
+.nouv_reserv input[type="date"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+.nouv_reserv input[type="submit"] {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.nouv_reserv input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/* Ajout du style pour la section "Tableau de synthèse des réservations" */
+.tab_synthese table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.tab_synthese th, .tab_synthese td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.tab_synthese th {
+    background-color: red;
+    color: white;
+}
+
+/* Ajout du style pour les sections "Ajouter un pilote", "Ajouter un avion" et "Liste des avions" */
+.add_pilote form,
+.add_avion form,
+.liste_avion table {
+    margin-top: 20px;
+}
+
+.add_pilote label,
+.add_avion label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.add_pilote input[type="text"],
+.add_avion input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+.add_pilote input[type="submit"],
+.add_avion input[type="submit"] {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.add_pilote input[type="submit"]:hover,
+.add_avion input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+
+
+

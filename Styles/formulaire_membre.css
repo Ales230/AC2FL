@@ -1,0 +1,117 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+header {
+    background-color:#222;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 15vh;
+    box-shadow: 5px 5px 10px rgb(0,0,0,0.3);
+}
+h1 {
+    letter-spacing: 1.5vw;
+    font-family: 'system-ui';
+    text-transform: uppercase;
+    text-align: center;
+}
+
+body{
+    letter-spacing: 0.5vw;
+    font-family: 'system-ui';
+    text-transform: uppercase;
+    text-align: left;
+    background: url(Ressources/fond_log1.jpg) no-repeat;
+    background-size:cover;
+    
+    
+}
+
+form {
+    width: 500px;
+    padding: 40px;
+    border-radius: 8px;
+    background-color: white;
+    font-family: 'system-ui';
+    box-shadow: 5px 5px 10px rgb(0,0,0,0.3);
+    background-color: rgba(255, 255, 255, 0.8);
+    margin:0 auto;
+    margin-top:8%;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    letter-spacing: 3px;
+    font-size: 1rem;
+    
+}
+#id_avion{
+    width: 100%;
+    border-radius: 6px;
+    border-style: solid;
+    border-width: 1px;
+    padding: 5px 0px;
+    text-indent: 6px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-family: 'system-ui';
+    font-size: 0.9rem;
+    letter-spacing: 2px;
+}
+input[type="text"] {
+    width: 100%;
+    border-radius: 6px;
+    border-style: solid;
+    border-width: 1px;
+    padding: 5px 0px;
+    text-indent: 6px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-family: 'system-ui';
+    font-size: 0.9rem;
+    letter-spacing: 2px;
+}
+
+input[type="submit"] {
+    border-style: none;
+    border-radius: 5px;
+    background-color: #FFE6D4;
+    padding: 8px 20px;
+    font-family: 'system-ui';
+    text-transform: uppercase;
+    letter-spacing: .8px;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    box-shadow: 2px 2px 5px rgb(0,0,0,0.2);
+    cursor: pointer;
+}
+
+
+input[type="submit"]:hover {
+    background-color:#FFE6E4;
+}
+
+select {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+.btn-home{
+    text-decoration:none;
+    color:white;
+    margin-right:1400px;
+    position:absolute;
+    font-size:3rem;
+}
+.btn-danger{
+    text-decoration:none;
+    color:white;
+    margin-left:1400px;
+    position:absolute;
+    font-size:1rem;
+}
