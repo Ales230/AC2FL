@@ -1,9 +1,9 @@
 services:
   - type: web
-    name: ac2fl
+    name: AC2FL
     env: docker
     plan: free
-    repo: https://github.com/ales230/ac2fl
+    repo: https://github.com/ales230/AC2FL
     region: oregon
     dockerfilePath: ./Dockerfile
     envVars:
