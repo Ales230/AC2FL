@@ -1,0 +1,15 @@
+{
+    "name": "recon/ac2fl",
+    "autoload": {
+        "psr-4": {
+            "Recon\\Ac2fl\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ales230",
+            "email": "leszek.alan77@gmail.com"
+        }
+    ],
+    "require": {}
+}
